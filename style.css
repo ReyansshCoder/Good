@@ -1,0 +1,27 @@
+canvas{
+border: 5px solid whitesmoke;
+margin-top: 80px;
+animation-name:yen;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes yen {
+    from{box-shadow: 5px 5px 50px cyan;
+    }
+    
+    to{box-shadow: 5px 5px 50px  springgreen;
+    }
+}
+
+body{
+background-color:lightsalmon;
+}
+
+#XD{
+float:right;
+}
+
+p{
+    font-size: 25px;
+}
